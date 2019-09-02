@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	width:900px;
+	margin:0px auto;
+	background:url(../images/bg.png) fixed;
+}
+a{text-decoration:none; font:1.0em Cambria;}
+a:hover{color:#C03; text-decoration:underline;}
+.container{
+	width:900px; background:#FFF; float:left;
+	box-shadow:0px 1px 1px 3px;
+}
+.header{
+	background:#CE0000; float:left;
+	width:900px; height:100px;
+}
+.content{
+	width:699px; float:right;
+	background:url(../images/bg_amb1.jpg);
+	border-left:1px #666 solid;
+}
+.aside{
+	width:200px; height:600px;
+	float:left; background:#BFBFBF;
+}
+.aside div{
+	height:28px; padding:5px; border-bottom:1px #000 solid;
+	text-align:center; font:0.9em Georgia;
+}
+.aside div a{text-decoration:none; color:#FFF;}
+.aside div a:hover{color:#900; font-size:1.1em; font-weight:500; color:#933;}
+.footer{
+	width:900px; height:50px;
+	background:#505050; color:#DDD;
+	float:left; font:0.9em Arial; text-align:center;
+}
+.btn{
+	width:100px; height:35px;
+}
+.txt{width:200px; height:22px; border-radius:10px; border:1px #999 solid; }
